@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>document</title>
+    <style>
+        body{
+            background-color: rgb(240, 179, 189);
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        h3{
+            color: red;
+            padding: 2px;
+            padding-top: ;
+            margin-bottom: 10px;
+        }
+        p{
+            margin: 2px;
+            color: red;
+            font-size: smaller;
+            padding-bottom: 8%;
+            
+        }
+    </style>
+</head>
+<body>
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quas.</p>
+</body>
+</html>

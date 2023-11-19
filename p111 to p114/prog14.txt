@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>document</title>
+    <style>    
+h1{
+     color: black;
+         display: inline-block;
+         padding: 2px;
+         margin: 4px;
+        }
+
+        p{
+         color: darkslategray;
+         display: inline;
+         padding: 5px;
+        }
+        .p1{
+         color: darkslategray;
+         }
+        a{
+         color: red;
+         text-decoration: none;
+        }
+
+    </style></head>
+<body>
+    <h1>1,049.61</h1> <p>USD</p><br>
+    <p class="p1">+18.50(1.75%) today<br>
+             After hours 1,048.00 <a href="#">   -1.61(0.15%)</p>
+</body>
+</html>

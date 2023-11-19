@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>document</title>
+    <style>
+        body{
+    background-image: url('../Ishika\ BCA2/bgimg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+ h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: black;
+        }
+        p{
+            color: black;
+        }
+    </style>
+    </head>
+    <body>    
+      <h1>Hello World!</h1>
+        <p>This page has an image as the background!</p>
+     </body>
+</html>

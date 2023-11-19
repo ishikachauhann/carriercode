@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>Date Functions</h1>
+    <p>Date functions are used to perform operations on date values. MySQL has a number of built-in functions that can
+        be used to manipulate date and time data. Here are some of the most commonly used date functions in MySQL:</p>
+    <ul>
+        <li>NOW() - Returns the current date and time
+            <p>Syntax : mysql> select NOW() from dual;</p>
+        </li>
+        <li>DATE() - Extracts the date part of a date or datetime expression
+            <p>Syntax : mysql> select DATE(datetime_expression) from dual;</p>
+        </li>
+        <li>YEAR() - Returns the year for a given date
+            <p>Syntax : mysql> select YEAR(date_expression) from dual;</p>
+        </li>
+        <li>MONTH() - Returns the month for a given date
+            <p>Syntax : mysql> select MONTH(date_expression) from dual;</p>
+        </li>
+        <li>DAY() - Returns the day for a given date
+            <p>Syntax : mysql> select DAY(date_expression) from dual;</p>
+        </li>
+        <li>HOUR() - Returns the hour for a given time or datetime expression
+            <p>Syntax : mysql> select HOUR(datetime_expression) from dual;</p>
+        </li>
+        <li>MINUTE() - Returns the minute for a given time or datetime expression
+            <p>Syntax : mysql> select MINUTE(datetime_expression) 
+            </p>
+        </li>
+        <li>SECOND() - Returns the second for a given time or datetime expression
+            <p>Syntax : mysql> select SECOND(datetime_expression) 
+            </p>
+        </li>
+        <li>DATE_ADD() - Adds a time/date interval to a date and then returns the date
+            <p>Syntax : mysql> select DATE_ADD(date, INTERVAL value unit) from dual;</p>
+        </li>
+        <li>DATE_SUB() - Subtracts a time/date interval from a date and then returns the date
+            <p>Syntax :<button> mysql> select DATE_SUB(date, INTERVAL value unit) from dual;</p>
+       </button> </li>
+    </ul>
+    <h1 >Output:</h1>
+    <img src="images/date.PNG"><br>
+    <img src="images/now.PNG"><br>
+    <img src="images/month.PNG"><br>
+</body>
+
+</html>

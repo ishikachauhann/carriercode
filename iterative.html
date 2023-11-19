@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>Iterative Control Structures</h1>
+    <p>Iterative control structures in PL/SQL are used to repeat a block of code until a certain condition is met. There are three types of iterative control structures in PL/SQL:</p>
+	<ul>
+		<li>SIMPLE loop : It is mainly used for infinite loops.</li>
+		<li>FOR loop : It is used to iterate over a specified range of numbers or a collection.</li>
+		<li>WHILE loop : It is used to repeat a block of code until a certain condition is met.</li>
+	</ul>
+
+    <h3>SIMPLE loop</h3>
+	<p>The syntax of a SIMPLE loop is as follows:</p>
+	<pre>LOOP
+    -- Statements to be executed
+END LOOP;</pre>
+	<p>We can also terminate loop using  exit </p>
+    <pre>exit when condition;</pre>
+	<br>
+
+	<h1 >Output:</h1>
+	<img src="images/simple.PNG">
+
+	<h3>FOR loop</h3>
+	<p>The syntax of a FOR loop is as follows:</p>
+	<pre>FOR loop_counter IN [REVERSE] lower_bound..upper_bound LOOP
+    -- Statements to be executed
+END LOOP;</pre>
+<br>
+
+	<h1 >Output:</h1>
+	<img src="images/for.PNG">
+	<p>Here, loop_counter is a variable used to count the iterations, lower_bound is the starting value of the loop counter, upper_bound is the ending value of the loop counter, and REVERSE is an optional keyword used to reverse the direction of the loop.</p>
+
+	<h3>WHILE loop</h3>
+	<p>The syntax of a WHILE loop is as follows:</p>
+	<pre>WHILE condition LOOP
+    -- Statements to be executed
+END LOOP;</pre>
+<br>
+
+	<h1 >Output:</h1>
+	<img src="images/while.PNG">
+	<p>The condition is a Boolean expression that is evaluated at the beginning of each iteration. If the condition evaluates to TRUE, the loop continues. If the condition evaluates to FALSE, the loop terminates.</p>
+</body>
+
+</html>

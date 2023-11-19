@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>Functions</h1>
+    <p>Functions are named PL/SQL blocks that can be called with arguments. They return a single value, which can be of
+        any PL/SQL datatype. Functions are similar to procedures, but they return a value and can be used in SQL
+        statements.</p>
+    <ul>
+        <li>Named Functions: These functions are defined in a PL/SQL block and can be called in the same
+            block or from other blocks. They can have parameters and return values.</li>
+        <li>Stored Functions: These functions are stored in the database and can be called from anywhere in
+            the database. They can have parameters and return values.</li>
+    </ul>
+
+    <h3>Syntax of Named Function</h3>
+    <p>A named function has the following syntax:</p>
+    <div>CREATE OR REPLACE FUNCTION function_name (parameter1 datatype, parameter2 datatype, ...) RETURN
+    return_datatype IS <br>
+    BEGIN <br>
+    &emsp;&emsp; -- function code goes here <br>
+    END function_name;</div><br>
+    
+
+   
+    <h3>Syntax of Stored Function</h3>
+    <p>A stored function has the following syntax:</p>
+    <div>CREATE OR REPLACE FUNCTION function_name (parameter1 datatype, parameter2 datatype, ...) RETURN
+    return_datatype IS <br>
+    BEGIN <br>
+    &emsp;&emsp;-- function code goes here <br>
+    END function_name;</div>
+
+<h1>Output:</h1>
+    <img src="images/function.PNG">
+</body>
+</html>

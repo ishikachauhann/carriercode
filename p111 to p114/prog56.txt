@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"  
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHueoGwBcD4Ng9Sip4dlRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+        <style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            img{
+                height: 120px;
+                width: 120px;
+                background-size:5px solid black;
+                border-radius: 50%;
+             }
+            .container{
+                text-align: center;
+                padding-top:20px;
+            }
+    </style>
+    </head>
+    <body>
+       <div class="container">
+        <div class="box">
+            <img src="../Ishika BCA2/bgimg.jpg">
+        </div>
+        <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.
+             Lorem ipsum has been the industry's standard dummy ever since the 1500s.<br>
+            Lorem ipsum is simply dummy text of the printing and typesetting industry.
+            </p><br>
+        <p>Amanda Sharma<br> Vice President of sloopy</p><br>
+        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+       </div> 
+    </body>
+</html>

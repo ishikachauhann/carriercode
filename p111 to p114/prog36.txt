@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+p{
+    font-size:larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+        </style>
+    </head>
+    <body>
+        <p><b>Choose a car:</b><select name="cars" id="cars">
+            <option value="valvo">Valvo</option>
+            <option value="Saab">Saab</option>
+        <option value="audi">Audi</option>
+    </select>  
+      </p>
+    </body>
+</html>

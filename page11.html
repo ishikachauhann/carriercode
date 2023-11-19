@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>matching </title>
+</head>
+<body>
+<h1>MATCHING PATTERN FROM A TABLE</H1>
+<p>MySQL provides standard SQL pattern matching as well as a form of pattern matching based on extended regular expressions similar to those used by Unix utilities such as vi, grep, and sed.
+
+SQL pattern matching enables you to use _ to match any single character and % to match an arbitrary number of characters (including zero characters). In MySQL, SQL patterns are case-insensitive by default. Some examples are shown here. Do not use = or <> when you use SQL patterns. Use the LIKE or NOT LIKE comparison operators instead.
+<br>To find names beginning with b:<br>
+<h2>Syntax</h2>
+<button>
+<b> SELECT * FROM table_name <br>
+WHERE name LIKE 'b%';</b></button>
+<h3>show all the record whose start with %b?</h3>
+<h1>Output:
+</h1>
+</p>
+<img src="images/like.PNG">
+
+</body>
+</html>

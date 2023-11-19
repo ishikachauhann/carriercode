@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .d1{
+                display: inline;
+            }
+            .d2{
+                text-emphasis:;;
+            }
+ h1{
+     color: black;
+     padding: 10px;
+     margin: 2px;
+     text-align: center;
+ }
+ p{
+     display: block;
+     text-align: center;
+ }
+ .p1{
+     text-align: left;
+ }
+ .p2{
+     text-align: center;
+ }
+ .p3{
+     text-align: right;
+ }
+
+ nav{
+     background-color: black;
+     color: white;
+     text-align: left;
+     margin:10px; 
+     padding: 10px;
+     display: block;
+    
+}
+.h2side{
+    text-align: left;
+}
+.h2mc{
+    text-align: center;
+}
+.h2sidee{
+    text-align: right;
+}
+        </style>
+    </head>
+    <body>
+        <h1>Header</h1>
+        <p class="">Resize the browser window to see responsive effect.</p>
+        <nav>
+            <a>Link</a>        
+            <a>Link</a>
+            <a>Link</a>
+        </nav>
+      <div class="d1"> <h2 class="h2side">Side</h2>
+        <p class="p1">Lorem ipsum, dolor sit<br> amet consectetur
+            <br> adipising elit.</p>          <div class="d2"> <h2 class="h2mc">Main Content</h2>
+            <p class="p2">Lorem ispum dolor sit amet, consectur adipiscing <br> elit. Maecenas sit amet pretium urna. Vivamus
+            <br> venenatis velit nec neque ultricies, eget elementum <br>
+        magna tristique. Quisque vehicula, risus eget aliquam<br>
+    placerat, purus leo tincidunt eros, eget luctus quam<br> orci in velit. POraesent scelerisque tortor
+sed accumsan <br>convallis.</p>
+<p class="p2">Lorem ispum dolor sit amet, consectur adipiscing <br> elit. Maecenas sit amet pretium urna. Vivamus
+    <br> venenatis velit nec neque ultricies, eget elementum <br>
+magna tristique. Quisque vehicula, risus eget aliquam<br>
+placerat, purus leo tincidunt eros, eget luctus quam<br> orci in velit. POraesent scelerisque tortor
+sed accumsan <br>convallis.</p>
+<div class="d3"><h2 class="h2sidee">Side</h2>
+<p class="p3">Lorem ispum dolor sit <br>amet, consectur <br> adipiscing elit.</p></div>
+</div>
+</div>
+
+</body>
+</html>

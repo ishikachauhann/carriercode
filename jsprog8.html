@@ -1,0 +1,24 @@
+<html>
+<body>
+    <h2>Enter the month number and display respective month name and days.</h2>
+</body>
+<head>
+    <title>Program 8</title>
+    <script>
+        
+        var month_name=function (dt){
+            mlist=["January","February","March", "April","May", "June","July", "August", "September", 
+        "October", "November", "December"];
+
+        return mlist[dt.getMonth()];
+        };
+        document.write(month_name(new Date("11"))+"<br>");
+
+        var getDaysInMonth = function(month,year){
+            return new Date(year, month,0).getDate();
+
+        };
+        document.write(getDaysInMonth(11,2012));
+    </script>
+</head>
+</html>

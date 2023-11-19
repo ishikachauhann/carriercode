@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            .navbar{
+                max-width: 1191px;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                padding: 20px;
+                align-items: center;
+            }
+            .navbar-left{
+                display: flex;
+                align-items: center;
+            }
+            .navbar-right a{
+                text-decoration: none;
+                padding: 10px;
+                color: black;
+            }
+            .navbar img{
+                height: 25px;
+                width: 25px;
+                padding: 10px;
+            }
+            a.btn{
+                padding: 6px 20px;
+                border: 2px solid black;
+                border-radius: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="navbar">
+                <div class="navbar-left">
+                    <img src="../Ishika BCA2/bgimg.jpg" alt="">
+                    <h1>Google</h1>
+                </div>
+                <div class="navbar-right">
+                    <a href="">HOME</a>|
+                    <a href="">PRODUCT</a>|
+                    <a href="">ABOUT US</a>|
+                    <a href="">CONTACT US</a>|
+                    <a href="" class="btn">Buttons</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

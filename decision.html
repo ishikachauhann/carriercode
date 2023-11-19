@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>Decisiosn Control Structures</h1>
+    <p>PL/SQL provides the following decision control structures:</p>
+	<ul>
+		<li>IF-THEN: The IF-THEN statement executes a sequence of statements if a condition is true.</li>
+		<li>IF-THEN-ELSE: The IF-THEN-ELSE statement executes one sequence of statements if a condition is true and another sequence of statements if the condition is false.</li>
+		<li>IF-THEN-ELSIF: The IF-THEN-ELSIF statement executes one sequence of statements if a condition is true and another sequence of statements if the condition is false, but additional conditions can be tested.</li>
+	</ul>
+	<p>Example of IF-THEN statement:</p>
+	<pre>
+DECLARE
+	num1 NUMBER := 10;
+BEGIN
+	IF num1 > 5 THEN
+		DBMS_OUTPUT.PUT_LINE('num1 is greater than 5');
+	END IF;
+END;</pre>
+	<p>Example of IF-THEN-ELSE statement:</p>
+	<pre>
+DECLARE
+	num1 NUMBER := 3;
+BEGIN
+	IF num1 > 5 THEN
+		DBMS_OUTPUT.PUT_LINE('num1 is greater than 5');
+	ELSE
+		DBMS_OUTPUT.PUT_LINE('num1 is less than or equal to 5');
+	END IF;
+END;</pre>
+	<p>Example of IF-THEN-ELSIF statement:</p>
+	<pre>
+DECLARE
+	num1 NUMBER := 7;
+BEGIN
+	IF num1 < 5 THEN
+		DBMS_OUTPUT.PUT_LINE('num1 is less than 5');
+	ELSIF num1 < 10 THEN
+		DBMS_OUTPUT.PUT_LINE('num1 is between 5 and 10');
+	ELSE
+		DBMS_OUTPUT.PUT_LINE('num1 is greater than or equal to 10');
+	END IF;
+END;</pre><br>
+<h1>Output:</h1>
+<img src="images/decision.png">
+</body>
+
+</html>

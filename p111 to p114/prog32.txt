@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .i{
+                display: inline;
+            }
+            .b{
+                display: block;
+            }
+            .IB{
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="i">Inline property:-</h1>
+        <div>       Lorem ispum dolor sit amet, consectur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+        venenatis velit nec neque ultricies, eget elementum  Lorem ipsum, dolor sit amet consectetur
+        adipising elit. Consquuentur preferendis, alias
+        quibusdam ratione ea cum id Laundantium
+          accusantiam tempore, numquam dicta, temetur
+            ispam! </div>
+                 <div class="b"> <h2>Block:-</h2>
+                    magna tristique. Quisque vehicula, risus eget aliquam
+                    placerat, purus leo tincidunt eros, eget luctus quam orci in velit. POraesent scelerisque tortor
+                    sed accumsan convallis.  Lorem ipsum, dolor sit amet consectetur
+                    adipising elit. Consquuentur preferendis, alias
+                    quibusdam ratione ea cum id Laundantium
+                      accusantiam tempore, numquam dicta, temetur
+                        ispam!</div>
+ 
+                  
+        <h1 class="IB">inline-block:-</h1>
+      <div>    Lorem ipsum, dolor sit amet consectetur
+        adipising elit. Consquuentur preferendis, alias
+        quibusdam ratione ea cum id Laundantium
+          accusantiam tempore, numquam dicta, temetur
+            ispam! Lorem ipsum, dolor sit amet consectetur
+            adipising elit. Consquuentur preferendis, alias
+            quibusdam ratione ea cum id Laundantium
+              accusantiam tempore, numquam dicta, temetur
+                ispam!</div>
+  
+    </body>
+</html>
